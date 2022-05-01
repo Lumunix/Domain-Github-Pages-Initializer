@@ -1,0 +1,205 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+
+
+theme: domain-jekyll
+#######################################################################
+# Site settings
+#######################################################################
+
+skin: light #Light(Default), Dark
+baseurl: "/Domain" # the subpath of your site, e.g. /blog
+url: "https://lumunix.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+repository: "Lumunix/Domain" # GitHub username/repo-name
+analytics: G-XFXH3N63NV # Google Analytics
+timezone: America/New_York
+include:
+  - _pages
+#######################################################################
+# SEO settings
+# Jekyll-SEO-Tag https://github.com/Lumunix/jekyll-seo-tag/blob/master/docs/usage.md
+#######################################################################
+logo: /assets/img/Icon.png
+tagline: Personal knowledge repository and blog template.
+description:  Domain - a specified sphere of activity or knowledge, your personal knowledge repository and blog.
+author:
+  name: Lumunix
+  twitter: lumunix
+  image: /assets/img/Icon.png
+twitter:
+  card: summary_large_image
+  username: Lumunix
+social:
+  name: Lumunix
+  links:
+    - https://twitter.com/lumunix
+    - https://github.com/lumunix
+#######################################################################
+# Sidebar Settings
+#######################################################################
+sidebar:
+  title: Lumunix
+  image: /assets/img/Icon.png
+  bio: Hello I'm Lumunix. I am a software engineer that specializes in automation.
+  copyright: Lumunix
+  social:
+    twitter: Lumunix
+    github: Lumunix
+    youtube: Lumunix
+    linkedin: blah
+    twitch: lumunix
+    facebook: blah
+    instagram: lum_unix
+    email: lumunix@icloud.com
+
+#######################################################################
+# About Page
+#######################################################################
+about:
+  name: Lumunix
+  image: /assets/img/type.png
+  bio: Hello I'm Lumunix. I am a software engineer that specializes in automation.
+  social:
+    twitter: Lumunix
+    github: Lumunix
+    youtube: Lumunix
+    linkedin: blah
+    twitch: lumunix
+    facebook: blah
+    instagram: lum_unix
+    email: lumunix@icloud.com
+
+#####################################################################
+# Site Feature Settings
+#####################################################################
+preferences:
+  author:
+    enabled: true
+  search:
+    enabled: true
+  wiki_style_link: # This property handles wiki style links '[['
+    enabled: true
+  sidenotes:
+    enabled: true
+  transclusion:
+    enabled: true
+  image:
+    enabled: true
+  pagepreview:
+    enabled: true
+  highlighting:
+    enabled: true
+    color: DAEDFF
+
+  backlinks:
+    enabled: true
+  related:
+    enabled: true # This enables the posts that are related to each other by tags
+  wrapping:
+    enabled: true
+  pagination:
+    system: infinitescroll ##infinitescroll (default), "infinitescroll", "pagination"
+  contextmenu:
+    enabled: true
+    copylink:
+      enabled: true
+    newtab:
+      enabled: true
+    backlinks:
+      enabled: true
+    related:
+      enabled: true
+  flashcards:
+    enabled: true
+  utterances:
+    repo: Lumunix/Domain
+    issue-term: pathname
+    theme: github-light
+    crossorigin: anonymous
+
+#####################################################################
+# Post Authors
+#####################################################################
+
+authors:
+  lumunix:
+    name: Lumunix
+    image: /assets/img/Icon.png
+    bio: Hello I'm Lumunix. I'm a software engineer that specializes in automation. I love to learn about new and creative ways to get computers to do my bidding, the world is filled with problems waiting to be solved!
+    social:
+      twitter: Lumunix
+      github: Lumunix
+      youtube: Lumunix
+      linkedin: blah
+      twitch: lumunix
+      facebook: blah
+      instagram: lum_unix
+      email: lumunix@icloud.com
+
+#####################################################################
+# Build Settings
+# plugins, markdown,
+#####################################################################
+encoding: utf-8
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-seo-tag
+
+markdown: kramdown
+paginate: 6
+paginate_path: "/page/:num"
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+  smart_quotes: ["apos", "apos", "quot", "quot"]
+  syntax_highlighter: rouge
+
+sass:
+  style: compressed
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: Post
+      permalink: /posts/:title
+      content-type: post
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: Page
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
