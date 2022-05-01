@@ -5,7 +5,7 @@ source "https://rubygems.org"
 #
 #     bundle exec jekyll serve
 
-gem "domain-jekyll"
+gem "domain-jekyll", path: "https://github.com/Lumunix/Domain/blob/main/domain-jekyll-1.0.3.gem"
 
 gem "github-pages", group: :jekyll_plugins
 # If you have any plugins, put them here!
