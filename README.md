@@ -1,23 +1,11 @@
-# Domain
+# Domain Github Pages Initializer
 
 ![Project-Banner](/readme/project-banner.png)
 
-Jekyll Knowledge Base / Blog Theme that provides wiki style linking, full text search and automatically generated post organization pages.
-
+Starter template repository for the [Domain Jekyll Theme](https://github.com/Lumunix/Domain).
 ## Usage
 
-1. [Install Docker/Compose](https://docs.docker.com/compose/install/). You must have Docker and Compose installed.
+1. Click [**Use this template**](https://github.com/Lumunix/domain-github-pages-initializer/generate) button to generate a repository setup for the
+[Domain Jekyll Theme](https://github.com/Lumunix/Domain).
 
-2. Create your own copy of this repo using Github's Repository template feature. Clone it to your machine.
-
-3. In the directory you downloaded the project, open command line or terminal and run the following command.
-
-```
-docker-compose up
-```
-4. You should now be able to go to your web browser and view the site [Here](http://127.0.0.1:4000/)
-
-
-## License
-
-Distributed under the [MIT License](http://opensource.org/licenses/MIT).
+2. Customize [_config.yml](https://github.com/Lumunix/Domain-Github-Pages-Initializer/blob/main/_config.yml) to make it your own!
