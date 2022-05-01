@@ -13,11 +13,11 @@
 # https://learnxinyminutes.com/docs/yaml/
 
 
-remote_theme: Lumunix/Domain
+
 #######################################################################
 # Site settings
 #######################################################################
-
+remote_theme: Lumunix/Domain
 skin: light #Light(Default), Dark
 baseurl: "/Domain-Github-Pages-Initializer" # the subpath of your site, e.g. /blog
 url: "https://lumunix.github.io" # the base hostname & protocol for your site, e.g. http://example.com
