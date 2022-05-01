@@ -13,7 +13,7 @@
 # https://learnxinyminutes.com/docs/yaml/
 
 
-theme: domain-jekyll
+remote_theme: Lumuix/Domain
 #######################################################################
 # Site settings
 #######################################################################
