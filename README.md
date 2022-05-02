@@ -1,8 +1,9 @@
 # [Domain Github Pages Initializer](https://lumunix.github.io/Domain-Github-Pages-Initializer/)
+Starter template repository for the [Domain Jekyll Theme](https://github.com/Lumunix/Domain).
 
 ![Project-Banner](/readme/project-banner.png)
 
-Starter template repository for the [Domain Jekyll Theme](https://github.com/Lumunix/Domain).
+
 ## Usage
 
 1. Click [**Use this template**](https://github.com/Lumunix/domain-github-pages-initializer/generate) button to generate a repository setup for the
