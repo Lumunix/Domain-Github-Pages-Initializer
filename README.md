@@ -1,4 +1,4 @@
-# Domain Github Pages Initializer
+# [Domain Github Pages Initializer](https://lumunix.github.io/Domain-Github-Pages-Initializer/)
 
 ![Project-Banner](/readme/project-banner.png)
 
