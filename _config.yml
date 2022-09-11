@@ -17,6 +17,7 @@
 #######################################################################
 # Site settings
 #######################################################################
+title: Domain
 remote_theme: Lumunix/Domain
 skin: light #Light(Default), Dark
 baseurl: "/Domain-Github-Pages-Initializer" # the subpath of your site, e.g. /blog
@@ -157,6 +158,10 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-seo-tag
+
+jekyll_admin:
+  hidden_links:
+    - datafiles
 
 markdown: kramdown
 paginate: 6
