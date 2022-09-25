@@ -1,5 +1,5 @@
 # [Domain Github Pages Initializer](https://lumunix.github.io/Domain-Github-Pages-Initializer/)
-Starter template repository for the [Domain Jekyll Theme](https://github.com/Lumunix/Domain).
+Starter template repository for the [Domain Jekyll Theme](https://github.com/Lumunix/Domain). 
 
 ![Project-Banner](/readme/project-banner.png)
 
